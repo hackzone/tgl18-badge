@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name MPR121)(type KiCad)(uri "$(KIPRJMOD)/libraries/MPR121.pretty")(options "")(descr ""))
+  (lib (name SW-Digistump)(type KiCad)(uri "$(KIPRJMOD)/libraries/SW-Digistump.pretty")(options "")(descr ""))
+  (lib (name LLC)(type KiCad)(uri "$(KIPRJMOD)/libraries/LLC.pretty")(options "")(descr ""))
+)

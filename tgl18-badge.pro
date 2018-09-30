@@ -1,4 +1,4 @@
-update=2018 September 29, Saturday 11:46:22
+update=9/30/2018 4:25:08 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=libraries
+LibDir=libraries;libraries/MPR121.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,4 +59,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=libraries/SW-Digistump
-LibName31=libraries/SparkFun-Sensors
+LibName31=libraries/mpr121
+LibName32=libraries/llc

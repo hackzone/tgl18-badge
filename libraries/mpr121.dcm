@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MPR121
+D NXP MPR121 Proximity Capacitive Touch Sensor Controller The MPR121 is a capacitive touch sensor controller driven by an I2C interface. The chip can control up to twelve individual electrodes, as well as a simulated thirteenth electrode. The MPR121 also features eight LED driving pins. When these pins are not configured as electrodes, they may be used to drive LEDs. <a href="http://www.sparkfun.com/datasheets/Components/MPR121.pdf">Datasheet</a> <h4>SparkFun Products</h4><ul><li><a href="https://www.sparkfun.com/products/9604">Capacitive Touch Sensor Controller - MPR121QR2</a> (COM-09604)</li><li><a href="https://www.sparkfun.com/products/9695">SparkFun Capacitive Touch Sensor Breakout - MPR121</a> (SEN-09695)</li><li><a href="https://www.sparkfun.com/products/12013">SparkFun Touch Shield</a> (DEV-12013)</li><li><a href="https://www.sparkfun.com/products/12017">SparkFun Capacitive Touch Keypad - MPR121</a> (SEN-12017)</li></ul>
+K PROD_ID:IC-09490
+$ENDCMP
+#
+#End Doc Library
