@@ -3,4 +3,5 @@
   (lib (name SW-Digistump)(type KiCad)(uri "$(KIPRJMOD)/libraries/SW-Digistump.pretty")(options "")(descr ""))
   (lib (name LLC)(type KiCad)(uri "$(KIPRJMOD)/libraries/LLC.pretty")(options "")(descr ""))
   (lib (name Pads)(type KiCad)(uri "$(KIPRJMOD)/libraries/Pads.pretty")(options "")(descr ""))
+  (lib (name ShittyAddOn)(type KiCad)(uri "$(KIPRJMOD)/libraries/ShittyAddOn.pretty")(options "")(descr ""))
 )

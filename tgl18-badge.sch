@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:SW-Digistump
 LIBS:mpr121
 LIBS:llc
+LIBS:badgelife_shitty_connector
 LIBS:tgl18-badge-cache
 EELAYER 25 0
 EELAYER END
@@ -386,4 +387,26 @@ Wire Wire Line
 Wire Wire Line
 	3050 2700 3050 2950
 Connection ~ 4300 2250
+$Comp
+L Badgelife_shitty_connector X1
+U 1 1 5BBA4F5F
+P 4450 4200
+F 0 "X1" H 4550 4000 60  0000 C CNN
+F 1 "Badgelife_shitty_connector" H 4450 4600 60  0000 C CNN
+F 2 "ShittyAddOn:Badgelife-Shitty-2x2" H 4450 4200 60  0001 C CNN
+F 3 "" H 4450 4200 60  0001 C CNN
+	1    4450 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 3650 4350 2350
+Connection ~ 4350 2350
+Wire Wire Line
+	4550 3650 4550 2250
+Connection ~ 4550 2250
+Text GLabel 4350 4550 3    60   UnSpc ~ 0
+3V3
+Text GLabel 4550 4550 3    60   UnSpc ~ 0
+GND
+NoConn ~ 1650 2650
 $EndSCHEMATC

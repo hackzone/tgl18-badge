@@ -1,4 +1,4 @@
-update=2018 September 30, Sunday 22:00:34
+update=2018 October 07, Sunday 20:21:43
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=valves
 LibName31=libraries/SW-Digistump
 LibName32=libraries/mpr121
 LibName33=libraries/llc
+LibName34=libraries/badgelife_shitty_connector
