@@ -31,7 +31,6 @@ LIBS:valves
 LIBS:SW-Digistump
 LIBS:mpr121
 LIBS:llc
-LIBS:tgl18-badge-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -386,4 +385,74 @@ Wire Wire Line
 Wire Wire Line
 	3050 2700 3050 2950
 Connection ~ 4300 2250
+$Comp
+L Conn_01x03_Male J13
+U 1 1 5BBA0702
+P 4850 3900
+F 0 "J13" H 4850 4100 50  0000 C CNN
+F 1 "LEDS_1_IN" H 4850 3700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4850 3900 50  0001 C CNN
+F 3 "" H 4850 3900 50  0001 C CNN
+	1    4850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Male J14
+U 1 1 5BBA0874
+P 5850 3900
+F 0 "J14" H 5850 4100 50  0000 C CNN
+F 1 "LEDS_1_OUT" H 5850 3700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5850 3900 50  0001 C CNN
+F 3 "" H 5850 3900 50  0001 C CNN
+	1    5850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Male J15
+U 1 1 5BBA0900
+P 6900 3900
+F 0 "J15" H 6900 4100 50  0000 C CNN
+F 1 "LEDS_2_IN" H 6900 3700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 6900 3900 50  0001 C CNN
+F 3 "" H 6900 3900 50  0001 C CNN
+	1    6900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03_Male J16
+U 1 1 5BBA0977
+P 7950 3900
+F 0 "J16" H 7950 4100 50  0000 C CNN
+F 1 "LED2_2_OUT" H 7950 3700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 7950 3900 50  0001 C CNN
+F 3 "" H 7950 3900 50  0001 C CNN
+	1    7950 3900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8150 3800
+NoConn ~ 8150 3900
+NoConn ~ 8150 4000
+Text GLabel 5050 4000 2    60   UnSpc ~ 0
+5V
+Text GLabel 6050 4000 2    60   UnSpc ~ 0
+5V
+Text GLabel 7100 4000 2    60   UnSpc ~ 0
+5V
+Text GLabel 5050 3800 2    60   UnSpc ~ 0
+GND
+Text GLabel 6050 3800 2    60   UnSpc ~ 0
+GND
+Text GLabel 7100 3800 2    60   UnSpc ~ 0
+GND
+Text GLabel 2300 2300 2    60   Output ~ 0
+LED
+Text GLabel 6050 3900 2    60   Output ~ 0
+LED
+Text GLabel 5050 3900 2    60   Input ~ 0
+LED
+Text GLabel 7100 3900 2    60   Input ~ 0
+LED
+NoConn ~ 2300 2000
+NoConn ~ 2300 2100
+NoConn ~ 1650 2650
 $EndSCHEMATC
