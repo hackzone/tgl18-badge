@@ -32,7 +32,6 @@ LIBS:SW-Digistump
 LIBS:mpr121
 LIBS:llc
 LIBS:badgelife_shitty_connector
-LIBS:tgl18-badge-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -409,4 +408,25 @@ Text GLabel 4350 4550 3    60   UnSpc ~ 0
 Text GLabel 4550 4550 3    60   UnSpc ~ 0
 GND
 NoConn ~ 1650 2650
+$Comp
+L Conn_01x03 J13
+U 1 1 5BBA755F
+P 1750 3250
+F 0 "J13" H 1750 3450 50  0000 C CNN
+F 1 "Conn_01x03" H 1750 3050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1750 3250 50  0001 C CNN
+F 3 "" H 1750 3250 50  0001 C CNN
+	1    1750 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 1550 3150 0    60   UnSpc ~ 0
+GND
+Text GLabel 1550 3350 0    60   UnSpc ~ 0
+5V
+Text GLabel 2300 2300 2    60   Output ~ 0
+LED
+Text GLabel 1550 3250 0    60   Input ~ 0
+LED
+NoConn ~ 2300 2000
+NoConn ~ 2300 2100
 $EndSCHEMATC
