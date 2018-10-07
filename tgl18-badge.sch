@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:SW-Digistump
 LIBS:mpr121
 LIBS:llc
+LIBS:tgl18-badge-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -296,4 +297,93 @@ Wire Wire Line
 	6000 1950 8300 1950
 Wire Wire Line
 	8300 1950 8300 3050
+$Comp
+L LM1117-3.3 U4
+U 1 1 5BB9C147
+P 3150 4000
+F 0 "U4" H 3000 4125 50  0000 C CNN
+F 1 "LM1117-3.3" H 3150 4125 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 3150 4000 50  0001 C CNN
+F 3 "" H 3150 4000 50  0001 C CNN
+	1    3150 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 4000 0    60   UnSpc ~ 0
+5V
+Text GLabel 3450 4000 2    60   UnSpc ~ 0
+3V3
+Text GLabel 3150 4300 3    60   UnSpc ~ 0
+GND
+$Comp
+L R R2
+U 1 1 5BB9C4C8
+P 3600 2950
+F 0 "R2" V 3680 2950 50  0000 C CNN
+F 1 "500" V 3600 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3530 2950 50  0001 C CNN
+F 3 "" H 3600 2950 50  0001 C CNN
+	1    3600 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5BB9C521
+P 3750 3100
+F 0 "R4" V 3830 3100 50  0000 C CNN
+F 1 "1k" V 3750 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3680 3100 50  0001 C CNN
+F 3 "" H 3750 3100 50  0001 C CNN
+	1    3750 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 3750 3250 3    60   UnSpc ~ 0
+GND
+$Comp
+L R R1
+U 1 1 5BB9C854
+P 2900 2950
+F 0 "R1" V 2980 2950 50  0000 C CNN
+F 1 "500" V 2900 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2830 2950 50  0001 C CNN
+F 3 "" H 2900 2950 50  0001 C CNN
+	1    2900 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5BB9C85A
+P 3050 3100
+F 0 "R3" V 3130 3100 50  0000 C CNN
+F 1 "1k" V 3050 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2980 3100 50  0001 C CNN
+F 3 "" H 3050 3100 50  0001 C CNN
+	1    3050 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 3250 3    60   UnSpc ~ 0
+GND
+Wire Wire Line
+	2500 2200 2500 2950
+Wire Wire Line
+	2500 2950 2750 2950
+Connection ~ 2500 2200
+Wire Wire Line
+	2600 2400 2600 2800
+Wire Wire Line
+	2600 2800 3450 2800
+Wire Wire Line
+	3450 2800 3450 2950
+Connection ~ 2600 2400
+Wire Wire Line
+	3750 2950 4400 2950
+Wire Wire Line
+	4400 2950 4400 2350
+Connection ~ 4400 2350
+Wire Wire Line
+	4300 2250 4300 2700
+Wire Wire Line
+	4300 2700 3050 2700
+Wire Wire Line
+	3050 2700 3050 2950
+Connection ~ 4300 2250
 $EndSCHEMATC
